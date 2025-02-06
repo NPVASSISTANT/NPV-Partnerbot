@@ -93,7 +93,7 @@ if prompt := st.chat_input("Bạn nhập nội dung cần trao đổi ở đây 
     with st.chat_message("assistant"):
         response = st.write_stream(stream)
     st.session_state.messages.append({"role": "assistant", "content": response})
-" Xin chào tôi đang hỗ trợ "
+" NPV rất vui được hỗ trợ Anh/Chị "
 
 
 #####
